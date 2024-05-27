@@ -1,0 +1,20 @@
+main {
+    padding: 2rem 0;
+}
+.welcome {
+    padding: 3rem 0; /* 要素の上下に3remのパディングを追加、左右のパディングは0 */
+    margin-bottom: 2rem; /* 要素の下に2remのマージンを追加 */
+    background-color: #eee; /* 要素の背景色を薄いグレー（#eee）に設定 */
+    align-items: center; /* 子要素を中央に揃える（縦方向の中央揃え） */
+    display: flex; /* 要素をフレックスボックスコンテナに設定 */
+    flex-direction: column; /* 子要素を縦方向（列方向）に配置 */
+}
+
+.snippet-date{
+    margin-bottom: 1rem;
+}
+
+.source-code > .highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
